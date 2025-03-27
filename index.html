@@ -76,10 +76,10 @@
             list-style: none;
             display: flex;
         }
-        header nav ul li {
+        header nav {
             margin-left: 30px;
         }
-        header nav ul li a {
+        header nav a {
             color: #fff;
             text-decoration: none;
             font-size: 1.1rem;
@@ -89,11 +89,11 @@
             position: relative; /* For the underline effect */
             padding-bottom: 4px; /* Space for the underline */
         }
-        header nav ul li a:hover {
+        header nav a:hover {
             color: #ff6b6b; /* Highlight on hover */
         }
 
-        header nav ul li a::after {
+        header nav a::after {
             content: '';
             position: absolute;
             left: 0;
@@ -104,7 +104,7 @@
             transition: width 0.3s ease;
         }
 
-        header nav ul li a:hover::after {
+        header nav a:hover::after {
             width: 100%;
         }
         /* Button Styles */
@@ -509,18 +509,17 @@
         <div class="container">
             <h1><span class="logo-part-1">2</span>bit <span class="logo-part-2">Lounge Park & Chill</span></h1>
             <nav>
-                <ul>
-                    <li><a href="#home"><i class="fa fa-home"></i>
-                        Home</a></li>
-                    <li><a href="#location"><i class="fa fa-map-marker-alt"></i>
-                        Location</a></li>
-                    <li><a href="#services"><i class="fa fa-utensils"></i>
-                        Services</a></li>
-                    <li><a href="#gallery"><i class="fa fa-tv"></i
-                        >Gallery</a></li>
-                    <li><a href="#contact"><i class="fa fa-phone"></i>
-                        Contact</a></li>
-                </ul>
+               
+                    <a href="#home"><i class="fa fa-home"></i>
+                        Home</a>
+                    <a href="#location"><i class="fa fa-map-marker-alt"></i>
+                        Location</a>
+                    <a href="#services"><i class="fa fa-utensils"></i>
+                        Services</a>
+                    <a href="#gallery"><i class="fa fa-tv"></i
+                        >Gallery</a>
+                    <a href="#contact"><i class="fa fa-phone"></i>
+                        Contact</a>
             </nav>
         </div>
     </header>
